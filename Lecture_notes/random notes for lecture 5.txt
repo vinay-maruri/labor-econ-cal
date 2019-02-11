@@ -1,0 +1,38 @@
+max U(C, L) s.t. C <= wh_m + V + f(h_n); L + h_m + h_n = T
+C, h_m, h_n
+
+the C constraint implies: 
+C <= w(T - L - h_n) + V + f(H_n)
+
+the T constraint:
+h_m = T - L - h_n
+
+L = U(C, L) + lambda[w(T - L - h_n) + V + f(h_n) - C]
+
+C: MU_c = lambda
+L: MU_l = lambda*w
+h_n: -lambda*w + lambda*f(h_n) = 0
+f'(h_n) = w
+MRS_LC = f'(h_n) = w
+
+Each hour of work yields the same consumption value at the margin
+
+f'(0) > w
+person enters into home production
+home production then continues at a decreasing marginal utility until the point where:
+f'(h*_n) = w
+
+a wage increase leads to a decrease in non-market work, ambiguous effects on market work and leisure
+----depends on size of substitution and income effects
+
+washing machine
+one is bought----this can be modelled as an increase in f(0), and a decrease in f'(h_n) perhaps to zero----reduction in the amount of non-market work available to be done
+non-market work decreases, increase in leisure, market work could potentially go up since all non-market work was switched
+
+higher female LFPR and lower fertility in past decades
+now: we can model f(h_n) as child production
+--wages have increased, that should decrease home production
+--but decreases in fertility could be driving increased labor supply (lower f'(h_n) with fewer kids around))
+
+we can break this apart with instrumental variables
+ 
